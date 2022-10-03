@@ -1,0 +1,27 @@
+{
+    "git.enabled": false,
+    "files.exclude": {
+        ".next": true,
+        ".vscode": true,
+        ".eslintignore": true,
+        ".eslintrc": true,
+        ".eslintrc.json": true,
+        ".gitignore": true,
+        "next-env.d.ts": true,
+        "next.config.js": true,
+        "README.md": true,
+        "tsconfig.json": true,
+        "yarn.lock": true,
+        ".editorconfig": true,
+        ".babelrc": true,
+        "postcss.config.js": true,
+        "tailwind.config.js": true,
+        "out": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.excludeLanguages": [
+      "markdown"
+    ]
+  }
