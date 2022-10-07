@@ -3,7 +3,7 @@ export const structureData = {
         facebook: 'a',
         instagram: 'b',
         linkedin: 'c',
-        youtube: 'd',
+        youtube: 'd'
     },
     menu: [
         {
@@ -11,27 +11,27 @@ export const structureData = {
             link: '/'
         },
         {
-            name: 'Quem somos',
-            link: '/quem-somos'
+            name: 'About',
+            link: '/about'
         },
         {
-            name: 'Produtos',
+            name: 'Products',
             link: '',
             submenu: [
                 {
-                    name: 'site',
-                    link: '/produtos/site'
+                    name: 'website',
+                    link: '/products/website'
                 }
             ]
         },
         {
-            name: 'Dúvidas Gerais',
-            link: '/duvidas-gerais'
-        },
+            name: 'Questions',
+            link: '/questions'
+        }
     ],
     general: {
         email: 'fabiochiquezi@gmail.com',
-        addressSimple: 'Rua Vinte e Cinco de Março, 26 - Campinas/SP',
+        addressSimple: 'Brazil - Campinas/SP',
         celphone: '+55 19 98312-7035'
     }
 }

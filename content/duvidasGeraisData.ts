@@ -1,91 +1,91 @@
 export const duvidasGeraisData = {
     seo: {
-        title: 'Chiquezi - Agência Digital | Dúvidas Gerais',
-        description: 'Dúvidas gerais a respeito do serviço de desenvolvimento web'
+        title: 'Chiquezi - Digital Agency | Dúvidas Gerais',
+        description: 'General questions about the web development service'
     },
-    title: 'Dúvidas Gerais',
-    subtitle: 'Aqui estão algumas inforamções mais detalhadas sobre nosso serviço de web site',
+    title: 'General Questions',
+    subtitle:
+        'Here is some more detailed information about our website service.',
     groupQuests: [
         {
-            title: 'Geral',
+            title: 'General',
             quests: [
                 {
-                    ask: 'É um serviço de aluguel de site?',
-                    answer: 'Sim, desenvolvemos para você um site e cobramos mensalmente o valor'
+                    ask: 'Is it a website rental service?',
+                    answer: 'Yes, we have developed a website for you and we charge the amount monthly.'
                 },
                 {
-                    ask: 'Pra quem principalemente é o serviço?',
-                    answer: 'Por hora oferecemos apenas sites corporativos, então é principalmente para empresas que desejam mostrar seu serviço online. Em breve adicionaremos e-commerces, blogs, vitrines e outros produtos como sistemas e aplicativos em nosso catálogo de produtos'
+                    ask: 'What is the service primarily for?',
+                    answer: "For now, we only offer corporate websites, so it's mainly for companies that want to showcase their service online. Soon we will add e-commerces, blogs, showcases and other products such as systems and applications in our product catalog"
                 },
                 {
-                    ask: 'Vocês criam os banners para o meu site?',
-                    answer: 'Não, apenas inserimos o conteúdo que você desejar. Se quiser trocar os banners do seu site você precisa nos fornecê-los'
+                    ask: 'Do you create the banners for my site?',
+                    answer: 'No, we just insert the content you want. If you want to change the banners on your site, you need to provide them to us.'
                 },
                 {
-                    ask: 'Posso retirá-lo da plataforma de vocês?',
-                    answer: 'Você não pode retirar o site, somente cancelar a sua assinatura. O cancelamento da assinatura levará a desabilitação do seu site'
-                },
-            ]
-        },
-        {
-            title: 'Processo',
-            quests: [
-                {
-                    ask: 'Como funciona o processo de contratação do serviço web?',
-                    answer: 'Ele passa por 6 etapas: 1) você vai na página "Contratar" nossa e preenche o formulário com todas as questões para podermos entender as suas necessidades, 2) iniciamos o desenvolvimento do design do layout e enviamos para você aprovar, 3) implementamos o código e colocamos o site no ar, 4) configuramos o seu domínio e adicionamos o conteúdo (as informações da sua empresa), 5) confirmamos o encerramento do projeto, 6) pedimos uma avaliação sua =)'
-                },
-                {
-                    ask: 'Quanto tempo demora esse processo?',
-                    answer: 'De 7 a 15 dias'
-                },
-                {
-                    ask: 'Se eu quiser alguma alteração?',
-                    answer: 'Basta entrar em contato conosco e alteramos pra você, nós lhe oferecemos todo o suporte necessário'
-                },
-                {
-                    ask: 'Se eu quiser desistir durante a produção do site?',
-                    answer: 'Avise-nos o mais rápido possível por favor, caso alguma inadimplência não voltaremos a fazer negócio =X'
+                    ask: 'Can I remove it from your platform?',
+                    answer: 'You cannot withdraw from the site, only cancel your subscription. Unsubscribing will lead to your site being disabled'
                 }
             ]
         },
         {
-            title: 'Pagamento e Contrato',
+            title: 'Process',
             quests: [
                 {
-                    ask: 'Tem alguma fidelidade de contrato',
-                    answer: 'Não, você pode cancelar a hora que você desejar, basta entrar em contato conosco'
+                    ask: 'How does the web service contracting process work?',
+                    answer: 'It goes through 6 steps: 1) you go to our "Hire" page and fill in the form with all the questions so that we can understand your needs, 2) we start the development of the layout design and send it to you to approve, 3) we implement the code and put the site online, 4) we configure your domain and add the content (your company information), 5) we confirm the end of the project, 6) we ask for your evaluation =)'
                 },
                 {
-                    ask: 'Posso pagar adiantado alguns meses?',
-                    answer: 'Ainda não, abriremos em breve essa possibilidade'
+                    ask: 'How long does this process take?',
+                    answer: 'From 7 to 15 days'
                 },
                 {
-                    ask: 'O site será cobrado enquanto estiver em desenvolvimento?',
-                    answer: 'Não, começará a ser cobrado somente após o site ser colocado no ar'
+                    ask: 'If I want any changes?',
+                    answer: "Just contact us and we'll change it for you, we'll give you all the support you need."
                 },
                 {
-                    ask: 'Como funciona o pagamento?',
-                    answer: 'Enviaremos um boleto todo mês com os dados necessários'
-                },
-            ]
-        },
-        {
-            title: 'Domínio (nome do site)',
-            quests: [
-                {
-                    ask: 'O domínio é entregue junto?',
-                    answer: 'Não, você precisa comprar o domínio a parte e é algo pessoal seu e nos passar os dados para podermos configurá-lo para você'
-                },
-                {
-                    ask: 'Quanto custa o domínio?',
-                    answer: 'Custa em torno de R$40,00 ao ano'
-                },
-                {
-                    ask: 'Vocês administram o domínio?',
-                    answer: 'Podemos administrá-lo para você, isso é, além da configuração também ficamos de olho no prazo de renovação para que você não perca e tenha algum transtorno para renová-lo. Entre em contato conosco para requisitar a administração do domínio'
+                    ask: "If I want to give up the project during the site's production?",
+                    answer: 'Please let us know as soon as possible, in case of any default we will not do business again =X'
                 }
             ]
         },
+        {
+            title: 'Please let us know as soon as possible, in case of default we will not do business again =X',
+            quests: [
+                {
+                    ask: 'Do you have any contractual fidelity?',
+                    answer: 'No, you can cancel anytime you want, just contact us.'
+                },
+                {
+                    ask: 'Can I pay a few months in advance?',
+                    answer: 'Not yet, we will soon open this possibility'
+                },
+                {
+                    ask: 'Will the site be charged while it is in development?',
+                    answer: 'No, it will only start to be charged after the site is live'
+                },
+                {
+                    ask: 'How does the payment work?',
+                    answer: 'We will send you a ticket every month with the necessary data'
+                }
+            ]
+        },
+        {
+            title: 'Domain (website name)',
+            quests: [
+                {
+                    ask: 'Is the domain delivered together?',
+                    answer: "No, you need to buy the domain separately and it's your personal thing and give us the details so we can configure it for you"
+                },
+                {
+                    ask: 'How much does the domain cost?',
+                    answer: 'Costs around $40.00 per year'
+                },
+                {
+                    ask: 'Do you manage the domain??',
+                    answer: "We can manage it for you, that is, in addition to the configuration, we also keep an eye on the renewal period so that you don't miss out and have any inconvenience to renew it. Contact us to request domain administration"
+                }
+            ]
+        }
     ]
-
 }

@@ -1,17 +1,19 @@
 export const quemSomosData = {
     seo: {
-        title: 'Chiquezi - Agência Digital | Quem somos',
-        description: 'Conheça mais sobre mim e os tipos de serviços de tecnologia que posso oferecer para sua empresa'
+        title: 'Chiquezi - Digital Agency | About us',
+        description:
+            'Learn more about me and the types of technology services I can offer your business'
     },
     hero: {
         name: 'Fábio Chiquezi',
-        position: 'DESENVOLVIMENTO FULL STACK',
+        position: 'FRONT-END DEVELOPMENT',
         block1: {
-            category: 'BIOGRAFIA',
-            message: 'Técnologia + design = produtividade. Deixe-nos levar sua empresa pra era digital!'
+            category: 'BIOGRAPHY',
+            message:
+                'Technology + design = productivity. Let us take your business into the digital age!'
         },
         block2: {
-            category: 'CONTATO',
+            category: 'CONTACT',
             address: 'Campinas, São Paulo',
             email: 'fabiochiquezi@gmail.com',
             phone: '+55 19 98312-7035'
@@ -19,7 +21,7 @@ export const quemSomosData = {
         image: './me/me1.png'
     },
     tags: {
-        title: 'MEUS SERVIÇOS',
+        title: 'MY SERVICES',
         listTags: [
             {
                 title: 'Web Design',
@@ -34,17 +36,13 @@ export const quemSomosData = {
                 link: '/'
             },
             {
-                title: 'AWS',
-                link: '/'
-            },
-            {
                 title: 'Mobile',
                 link: '/'
             }
         ]
     },
     advantage: {
-        title: 'Minhas Vantagens',
+        title: 'My Advantages',
         advantages: [
             {
                 image: './skills/html.svg',
@@ -67,14 +65,9 @@ export const quemSomosData = {
                 title: 'TS'
             },
             {
-                image: './skills/mysql.svg',
-                percent: '70%',
-                title: 'MySQL'
-            },
-            {
                 image: './skills/react.svg',
                 percent: '90%',
-                title: 'React (NextJS)'
+                title: 'React / NextJS'
             },
             {
                 image: './skills/firebase.svg',
@@ -97,19 +90,19 @@ export const quemSomosData = {
         title: 'Depoimentos',
         items: [
             {
-                message: 'Excelente profissional. Entregou soluções eficientes e cumpriu os prazos acordados, mantendo sempre um bom diálogo e atendimento. Recomendo',
+                message:
+                    'Excellent professional. He delivered efficient solutions and met the agreed deadlines, always maintaining a good dialogue and service. I recommend',
                 name: 'Ravi Novaes',
-                position: 'da Equipe Mariana Conti'
+                position:
+                    'from the Mariana Conti Team (federal deputy of Brazil)'
             },
             {
-                message: 'Excelente atendimento, entrega do site empresarial realizada em um curto espaço de tempo, indicação total para profissionais que buscam agilidade e eficiência.”',
+                message:
+                    'Excellent, delivery of the business website carried out in a short time service, total indication for the professional space that seeks agility and efficiency.”',
                 name: 'Renan Teixeira',
-                position: 'DeniMadia'
-            },
+                position: 'DeniMadia Company'
+            }
         ],
-        images: [
-            './partners/logo-6.png',
-            './partners/logo-7.png',
-        ]
+        images: ['./partners/logo-6.png', './partners/logo-7.png']
     }
 }

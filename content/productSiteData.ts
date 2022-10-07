@@ -1,41 +1,47 @@
 export const productSiteData = {
     seo: {
-        title: 'Chiquezi - Agência Digital | Web Site',
-        description: 'Conheça nosso serviço de desenvolvimento web, por que ter um site e como podemos lhe ajudar nisso'
+        title: 'Chiquezi - Digital Agency | Web Site',
+        description:
+            'Discover our web development service, why have a website and how we can help you with it'
     },
     timeLine: {
-        title: 'Por que ter um site nos dias de hoje?',
+        title: 'Why have a website these days?',
         times: [
             {
-                title: 'Fortalece sua marca',
-                subtitle: 'Credibilidade é tudo, é fundamental estar no ambiente digital, seus concorrentes vão estar',
+                title: 'Strengthens your brand',
+                subtitle:
+                    'Credibility is everything, it is essential to be in the digital environment, your competitors will be',
                 image: '../timeline/timeline1.svg',
                 color: 'color6'
             },
             {
-                title: 'Ser encontrado',
-                subtitle: 'Quando alguém quer comprar algo, obter informações de um produto ou serviço, vai até o google',
+                title: 'be found',
+                subtitle:
+                    'When someone wants to buy something, get information about a product or service, they go to google',
                 image: '../timeline/timeline2-v2.svg',
                 color: 'color1'
             },
             {
-                title: 'Aumenta as vendas',
-                subtitle: 'Um site está 24h por dia aberto aos seus clientes vendendo para você',
+                title: 'Increase sales',
+                subtitle:
+                    'A website is open 24 hours a day to its customers selling to you',
                 image: '../timeline/timeline3-v3.svg',
                 color: 'color5'
             },
             {
-                title: 'Integração com as redes sociais',
-                subtitle: 'Quanto mais suas redes sociais melhoram, melhor é a colocação do seu site no google.',
+                title: 'Integration with social networks',
+                subtitle:
+                    "The more your social networks improve, the better your site's placement on google.",
                 image: '../timeline/timeline4.svg',
                 color: 'color2'
             },
             {
-                title: 'Custo benefício',
-                subtitle: 'O preço para ter sua marca no ambiente digital é altamente acessível principalmente conosco',
+                title: 'Cost benefit',
+                subtitle:
+                    'The price to have your brand in the digital environment is highly accessible, especially with us.',
                 image: '../timeline/timeline5.svg',
                 color: 'color1'
-            },
+            }
             // {
             //     title: 'Prospecção',
             //     subtitle: 'Formulários online podem ser utilizados para permitir aos seus clientes o pedido de orçamentos ou informações adicionais',
@@ -43,13 +49,22 @@ export const productSiteData = {
             //     color: 'color7'
             // }
         ],
-        endMessage: 'O site é sua loja digital, todas as agências de marketing utilizam o site como ponto central de suas campanhas ',
+        endMessage:
+            'The website is your digital store, all marketing agencies use the website as the focal point of their campaigns'
     },
     prices: {
-        points: ['Design único', 'Performance de primeira', 'Suporte rápido', 'Custo acessível', 'Segurança de nível alto', 'Adaptado para SEO'],
-        button: 'Fale Conosco',
-        preco: 'R$25,00',
-        title: 'Site. Suporte. Servidor.',
-        subtitle: 'Entre em contato, marcaremos uma reunião online, entenderemos sua necessidade, apresentaremos um projeto no prazo proposto, implementaremos com os dados da sua empresa e configuraremos no nosso servidor.'
-    },
+        points: [
+            'Unique design',
+            'First Class Performance',
+            'Fast Support',
+            'Affordable Cost',
+            'High Level Security',
+            'Tailored for SEO'
+        ],
+        button: 'Contact us',
+        preco: '$25,00',
+        title: 'Site. Support. Server.',
+        subtitle:
+            "Contact us, we will arrange an online meeting, we will understand your need, we will present a project within the proposed deadline, we will implement it with your company's data and configure it on our server."
+    }
 }

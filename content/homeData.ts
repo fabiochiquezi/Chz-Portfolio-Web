@@ -1,127 +1,148 @@
 export const homeData = {
     seo: {
-        title: 'Chiquezi - Agência Digital',
-        description: 'Desenvolvimento de websites para sua empresa'
+        title: 'Chiquezi - Tech Agency',
+        description: 'Website development for your company'
     },
     hero: {
-        message: 'Crie seu site novo conosco',
-        content: 'Nós ajudamos nossos clientes criando sites modernos, com design diferenciado, performance de primeira, comunicação eficiente, suporte de perto e tudo isso com apenas o custo do servidor de hospedagem',
-        button: 'Fale Conosco'
+        message: 'Create your new website with us',
+        content:
+            'We help our clients with modern websites, distinctive design, first-rate performance, efficient communication and close support.',
+        button: 'Contact us'
     },
     timeLine: {
-        title: 'Por que ter um site nos dias de hoje?',
+        title: 'Why have a website these days?',
         times: [
             {
-                title: 'Fortalecer sua marca',
-                subtitle: 'Credibilidade é tudo, é fundamental estar no ambiente digital, seus concorrentes estarão',
+                title: 'Strengthen your brand',
+                subtitle:
+                    'Credibility is everything, it is essential to be in the digital environment, your competitors will be',
                 image: './timeline/timeline1.svg',
                 color: 'green-600'
             },
             {
-                title: 'Ser encontrado',
-                subtitle: 'Em geral as pessoas quando querem comprar algo vão até ao google pesquisar por empresas que vendem ou prestam esse serviço',
+                title: 'Be found',
+                subtitle:
+                    'In general, when people want to buy something, they go to google to search for companies that sell or provide the service.',
                 image: './timeline/timeline2.svg',
                 color: 'purple-600'
             },
             {
-                title: 'Aumenta as vendas',
-                subtitle: 'Um site está 24h por dia aberto aos seus clientes, mostrando seus produtos ou serviços e vendendo para você',
+                title: 'Increase sales',
+                subtitle:
+                    'A website is open 24 hours a day to your customers, showing your products or services and selling them to you.',
                 image: './timeline/timeline3.svg',
                 color: 'yellow-600'
             }
         ],
-        endMessage: 'O site é sua loja digital, todas as agências de marketing utilizam o site como ponto central de suas campanhas ',
+        endMessage:
+            'The website is your digital store, all marketing agencies use the website as the main point of their campaigns',
         linkSeeMore: '/como-funciona'
     },
     ourService: {
-        title: 'Por que nós?',
-        subtitle: 'Buscamos a excelência em nossa agência em todos as áreas necessárias de um bom site: design, performance, segurança, SEO...',
+        title: 'Why choose us?',
+        subtitle:
+            'We strive for excellence in our agency in all areas necessary for a good website: design, performance, security, SEO...',
         services: [
             {
                 img: './icons/Icon-4.svg',
                 title: 'DESIGN',
-                message: 'Design moderno e altamente personalizado conforme suas necessidades'
+                message: 'Modern design and highly customized as per your needs'
             },
             {
                 img: './icons/Icon-3.svg',
                 title: 'PERFORMANCE',
-                message: 'Desenvolvemos os sites com a melhor performance do mercado'
+                message:
+                    'We develop the websites with the best performance on the market'
             },
             {
                 img: './icons/Icon-2.svg',
-                title: 'SUPORTE',
-                message: 'Suporte eficiente e rápido, caso precise de alterações ou surja algum problema'
+                title: 'SUPPORT',
+                message:
+                    'Efficient and fast support in case you need changes or an issue arises'
             },
             {
                 img: './icons/Icon-1.svg',
-                title: 'CUSTO',
-                message: 'Sem custo para desenvolvimento, apenas dos servidores, dessa forma garantimos os melhores preços do mercado'
+                title: 'COST',
+                message:
+                    'No cost for development, just the servers, so we guarantee the best prices on the market'
             },
             {
                 img: './icons/Icon-5.svg',
-                title: 'SEGURANÇA',
-                message: 'Segurança automatizada e 24h sob nossos cuidados (já incluso SSL - Criptografia)'
+                title: 'SAFETY',
+                message:
+                    'Automated and 24-hour security under our care (SSL already included - Encryption)'
             },
             {
                 img: './icons/Icon-0.svg',
                 title: 'SEO',
-                message: 'Altamente otimizado para os buscadores como google'
-            },
+                message: 'Highly optimized for search engines like google'
+            }
         ]
     },
     ourApproach: {
-        title: 'Como funciona',
+        title: 'How it works',
         approachs: [
             {
-                subtitle: 'UM',
-                title: 'Contato',
-                content: 'Enviamos pra você um questionário para entendermos melhor sua necessidade e como você deseja seu site'
+                subtitle: 'ONE',
+                title: 'Contact',
+                content:
+                    'We send you a questionnaire to better understand your need and how you want your website'
             },
             {
-                subtitle: 'DOIS',
-                title: 'Produção',
-                content: 'Iniciamos o processo de desenvolvimento do layout (7 dias em média), enviamos pra você para aprovação.'
+                subtitle: 'TWO',
+                title: 'Production',
+                content:
+                    'We start the layout development process (7 days on average), we send it to you for approval.'
             },
             {
-                subtitle: 'TRÊS',
-                title: 'Implementação',
-                content: 'Iniciamos o desenvolvimento do código (site) e implementamos toda a configuração'
+                subtitle: 'THREE',
+                title: 'Implementation',
+                content:
+                    'We start the code development (website) and implement all the configuration'
             },
             {
-                subtitle: 'QUATRO',
-                title: 'Finalização',
-                content: 'Entramos em contato avisando quando o site estiver pronto funcionando (em geral todo o processo leva em média 15 dias)'
+                subtitle: 'FOUR',
+                title: 'Finalization',
+                content:
+                    'We contact you letting you know when the site is ready to work (in general, the entire process takes an average of 15 days)'
             },
             {
-                subtitle: 'CINCO',
-                title: 'Pós-finalização',
-                content: 'Pedimos sempre uma avaliação do nosso cliente =)'
+                subtitle: 'FIVE',
+                title: 'Post-completion',
+                content: 'We always ask for a review from our customer =)'
             }
         ]
     },
     prices: {
-        points: ['Design único', 'Performance de primeira', 'Suporte rápido', 'Custo acessível', 'Segurança de nível alto', 'Adaptado para SEO'],
-        button: 'Fale Conosco',
-        preco: 'R$25,00',
+        points: [
+            'Unique design',
+            'First Class Performance',
+            'Fast Support',
+            'Affordable Cost',
+            'High Level Security',
+            'Tailored for SEO'
+        ],
+        button: 'Contact us',
+        preco: '$25,00'
     },
     testimonials: {
-        title: 'Depoimentos',
+        title: 'Depositions',
         items: [
             {
-                message: 'Excelente profissional. Entregou soluções eficientes e cumpriu os prazos acordados, mantendo sempre um bom diálogo e atendimento. Recomendo',
+                message:
+                    'Excellent professional. He delivered efficient solutions and met the agreed deadlines, always maintaining a good dialogue and service. I recommend',
                 name: 'Ravi Novaes',
-                position: 'da Equipe Mariana Conti'
+                position:
+                    'from the Mariana Conti Team (federal deputy of Brazil)'
             },
             {
-                message: 'Excelente atendimento, entrega do site empresarial realizada em um curto espaço de tempo, indicação total para profissionais que buscam agilidade e eficiência.”',
+                message:
+                    'Excellent, delivery of the business website carried out in a short time service, total indication for the professional space that seeks agility and efficiency.”',
                 name: 'Renan Teixeira',
-                position: 'DeniMadia'
-            },
+                position: 'DeniMadia Company'
+            }
         ],
-        images: [
-            './partners/logo-6.png',
-            './partners/logo-7.png',
-        ]
+        images: ['./partners/logo-6.png', './partners/logo-7.png']
     },
     partners: {
         title: 'Moonex’s Partners',
