@@ -2,8 +2,8 @@ import React from 'react'
 import { Ul } from './styles'
 
 interface service {
-    img: string,
-    title: string,
+    img: string
+    title: string
     message: string
 }
 
@@ -13,7 +13,6 @@ interface props {
 
 const ListServices: React.FC<props> = ({ services, ...props }) => (
     <Ul {...props}>
-
         {services.map((el, index) => {
             return (
                 <li key={index}>

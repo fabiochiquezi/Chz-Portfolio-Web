@@ -3,9 +3,9 @@ import type { NextPage } from 'next'
 import StructurePage from '../structure'
 import React, { useContext } from 'react'
 import Hero1 from '../sections/hero/hero1'
-import OurService from '../sections/ourService'
+import OurService from '../sections/OurService'
 import { homeData } from '../../content/homeData'
-import OurApproach from '../sections/ourApproach'
+import OurApproach from '../sections/OurApproach'
 import { GeneralContext } from '../context/general'
 import TimeLine1 from '../sections/timeLine/timeLine1'
 import Testimonial2 from '../sections/testimonials/testimonial2'
@@ -29,7 +29,7 @@ const Page: NextPage = () => {
     const { general } = structureData
 
     return (
-        <>
+        <div>
             <Head>
                 <title>{seo.title}</title>
                 <meta name="description" content={seo.description} />
@@ -41,7 +41,6 @@ const Page: NextPage = () => {
                     content={hero.content}
                     button={hero.button}
                 />
-
                 <TimeLine1
                     title={timeLine.title}
                     endMessage={timeLine.endMessage}
@@ -49,20 +48,17 @@ const Page: NextPage = () => {
                     times={timeLine.times}
                     className="pt-16 md:pt-20 xl:pt-24"
                 />
-
                 <OurService
                     className="pt-24 2xl:pt-40"
                     title={ourService.title}
                     subtitle={ourService.subtitle}
                     services={ourService.services}
                 />
-
                 <OurApproach
                     className="pt-24 mt-24 2xl:mt-20"
                     title={ourApproach.title}
                     works={ourApproach.approachs}
                 />
-
                 <BoxSalles1
                     textButton={prices.button}
                     cellphone={general.celphone}
@@ -71,14 +67,13 @@ const Page: NextPage = () => {
                     mode="dark"
                     className="pb-20 lg:pb-24"
                 />
-
                 <Testimonial2
                     title={testimonials.title}
                     slides={testimonials.items}
                     images={testimonials.images}
                 />
             </StructurePage>
-        </>
+        </div>
     )
 }
 

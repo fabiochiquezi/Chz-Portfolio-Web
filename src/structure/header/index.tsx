@@ -1,19 +1,19 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import { animMenu } from './anim'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import { Header as Div } from './styles'
-import { LiSubmenu, LiSimple } from './li'
+// import { LiSubmenu, LiSimple } from './li'
 import Menu from '../../../public/icons/Menu'
 import { handleOverflow } from './overflowFn'
 import Logo1 from '../../components/logo/logo1'
 import Btn1 from '../../components/buttons/btn1'
 import React, { useContext, useEffect } from 'react'
 import { GeneralContext } from '../../context/general'
-import { structureData } from '../../../content/structureData'
+// import { structureData } from '../../../content/structureData'
 
 export const Header: React.FC = ({ ...props }) => {
     // const [delay, setDelay] = useState(true)
-    const router = useRouter()
+    // const router = useRouter()
     const { menuProvider, menuStyleProvider } = useContext(GeneralContext)
 
     function toggleMenu(e: React.MouseEvent) {
@@ -46,10 +46,17 @@ export const Header: React.FC = ({ ...props }) => {
 
                 <nav>
                     <a href="#" className="icon-menu" onClick={toggleMenu}>
-                        <Menu active={menuProvider.menu} fill={menuStyleProvider.menuStyle === 1 ? 'white' : 'black'} />
+                        <Menu
+                            active={menuProvider.menu}
+                            fill={
+                                menuStyleProvider.menuStyle === 1
+                                    ? 'white'
+                                    : 'black'
+                            }
+                        />
                     </a>
 
-                    <ul className="menu">
+                    {/* <ul className="menu">
                         {structureData.menu.map((el, index) => {
                             const existSubmenu = el.submenu !== undefined
                             if (existSubmenu) {
@@ -64,7 +71,7 @@ export const Header: React.FC = ({ ...props }) => {
                                 <a className={router.pathname === '/cotnratar' ? 'active' : ''}>Contratar</a>
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
 
                     <div className="btn-contract">
                         <Btn1 text="Contratar" link="/contratar" />

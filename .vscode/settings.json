@@ -16,7 +16,8 @@
         ".babelrc": true,
         "postcss.config.js": true,
         "tailwind.config.js": true,
-        "out": true
+        "out": true,
+        ".prettierrc": true
     },
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
