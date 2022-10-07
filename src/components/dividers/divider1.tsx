@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
-import { colors } from '../../styles/colors'
+import { colors } from '../../general/styles/colors'
 
 const Div = styled.div`
-        width: 100%;
-        height: 2px;
-        background: ${colors.gradient1rgb};
-        background: ${colors.gradient1};
-        position: relative;
-        margin-top: -2px;
-        z-index: 100;
+    width: 100%;
+    height: 2px;
+    background: ${colors.gradient1rgb};
+    background: ${colors.gradient1};
+    position: relative;
+    margin-top: -2px;
+    z-index: 100;
 `
 
 const Divider1: React.FC = ({ ...props }) => (
