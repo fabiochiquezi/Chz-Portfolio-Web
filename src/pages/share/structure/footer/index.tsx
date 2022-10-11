@@ -2,8 +2,8 @@ import React from 'react'
 import Footer1 from './footer1'
 import Footer2 from './footer2'
 import styled from 'styled-components'
+import { colors } from '../../../styles'
 import Divider1 from '../../../../components/dividers/divider1'
-import { colors } from '../../../../general/styles/colors'
 
 const FooterDiv = styled.footer`
     background: ${colors.black1};

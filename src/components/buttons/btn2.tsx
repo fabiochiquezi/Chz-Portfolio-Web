@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-import { colors } from '../../general/styles/colors'
+import { colors } from '../../pages/styles'
 
 const Btn = styled.a`
     color: ${colors.black1};

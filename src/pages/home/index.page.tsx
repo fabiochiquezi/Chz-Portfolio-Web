@@ -1,32 +1,21 @@
 import Head from 'next/head'
+import { Hero } from './hero'
+import { TimeLine } from './timeLine'
 import type { NextPage } from 'next'
-import StructurePage from '../share/structure'
+import OurService from './ourService'
+import OurApproach from './ourApproach'
 import React, { useContext } from 'react'
-import Hero1 from './hero1'
-import OurService from './OurService'
+import StructurePage from '../share/structure'
 import { homeData } from '../../general/content/homeData'
-import OurApproach from './OurApproach'
 import { GeneralContext } from '../share/context/general'
-import TimeLine1 from './timeLine1'
-import Testimonial2 from './testimonials/testimonial2'
-import BoxSalles1 from './boxSalles/boxSalles1'
-import { structureData } from '../../general/content/structureData'
+import { Testimonial } from '../share/sections/testimonial'
 
 const Page: NextPage = () => {
     const { menuStyleProvider } = useContext(GeneralContext)
     menuStyleProvider.setMenuStyle(1)
 
-    const {
-        seo,
-        hero,
-        timeLine,
-        ourService,
-        ourApproach,
-        testimonials,
-        prices
-    } = homeData
-
-    const { general } = structureData
+    const { seo, hero, timeLine, ourService, ourApproach, testimonials } =
+        homeData
 
     return (
         <div>
@@ -36,20 +25,20 @@ const Page: NextPage = () => {
             </Head>
 
             <StructurePage>
-                <Hero1
+                <Hero
                     message={hero.message}
                     content={hero.content}
                     button={hero.button}
                 />
-                <TimeLine1
+                <TimeLine
                     title={timeLine.title}
                     endMessage={timeLine.endMessage}
                     linkSeeMore={timeLine.linkSeeMore}
                     times={timeLine.times}
-                    className="pt-16 md:pt-20 xl:pt-24"
+                    className="pt-9 md:pt-12 lg:pt-16"
                 />
                 <OurService
-                    className="pt-24 2xl:pt-40"
+                    className="pt-24"
                     title={ourService.title}
                     subtitle={ourService.subtitle}
                     services={ourService.services}
@@ -59,15 +48,7 @@ const Page: NextPage = () => {
                     title={ourApproach.title}
                     works={ourApproach.approachs}
                 />
-                <BoxSalles1
-                    textButton={prices.button}
-                    cellphone={general.celphone}
-                    price={prices.preco}
-                    points={prices.points}
-                    mode="dark"
-                    className="pb-20 lg:pb-24"
-                />
-                <Testimonial2
+                <Testimonial
                     title={testimonials.title}
                     slides={testimonials.items}
                     images={testimonials.images}

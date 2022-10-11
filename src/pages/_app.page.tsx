@@ -1,9 +1,9 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import '../general/styles/tailwind.css'
-import type { AppProps } from 'next/app'
+import './tailwind.css'
+import GlobalStyle from './styles'
 import React, { useEffect } from 'react'
-import GlobalStyle from '../general/styles'
+import type { AppProps } from 'next/app'
 import { GeneralProvider } from './share/context/general'
 
 function MyApp({ Component, pageProps }: AppProps) {

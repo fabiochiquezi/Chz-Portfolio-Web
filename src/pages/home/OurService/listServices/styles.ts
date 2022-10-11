@@ -1,4 +1,5 @@
-import { colors } from '../../../../general/styles/colors'
+import { colors } from './../../../styles'
+
 import styled from 'styled-components'
 
 export const Ul = styled.ul`

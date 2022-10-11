@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { colors } from '../../general/styles/colors'
+import { colors } from '../../pages/styles'
 
 const Div = styled.div`
     width: 100%;

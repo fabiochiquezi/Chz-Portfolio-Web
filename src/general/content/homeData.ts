@@ -1,12 +1,12 @@
 export const homeData = {
     seo: {
-        title: 'Chiquezi - Tech Agency',
+        title: 'Chiquezi - Digital Agency',
         description: 'Website development for your company'
     },
     hero: {
         message: 'Create your new website with us',
         content:
-            'We help our clients with modern websites, distinctive design, first-rate performance, efficient communication and close support.',
+            'We help our clients with modern websites, distinctive design and, first-rate performance.',
         button: 'Contact us'
     },
     timeLine: {
@@ -36,7 +36,7 @@ export const homeData = {
         ],
         endMessage:
             'The website is your digital store, all marketing agencies use the website as the main point of their campaigns',
-        linkSeeMore: '/como-funciona'
+        linkSeeMore: '/products/website'
     },
     ourService: {
         title: 'Why choose us?',
@@ -61,12 +61,6 @@ export const homeData = {
                     'Efficient and fast support in case you need changes or an issue arises'
             },
             {
-                img: './icons/Icon-1.svg',
-                title: 'COST',
-                message:
-                    'No cost for development, just the servers, so we guarantee the best prices on the market'
-            },
-            {
                 img: './icons/Icon-5.svg',
                 title: 'SAFETY',
                 message:
@@ -86,54 +80,42 @@ export const homeData = {
                 subtitle: 'ONE',
                 title: 'Contact',
                 content:
-                    'We send you a questionnaire to better understand your need and how you want your website'
+                    "Contact us, we'll send you a questionnaire to better understand your need and make you a budget"
             },
             {
                 subtitle: 'TWO',
                 title: 'Production',
                 content:
-                    'We start the layout development process (7 days on average), we send it to you for approval.'
+                    'We start the layout development process (10 days), we send it to you for approval.'
             },
             {
                 subtitle: 'THREE',
                 title: 'Implementation',
                 content:
-                    'We start the code development (website) and implement all the configuration'
+                    'We start the code development (website) and implement all the configuration (10 days)'
             },
             {
                 subtitle: 'FOUR',
-                title: 'Finalization',
+                title: 'Information',
                 content:
-                    'We contact you letting you know when the site is ready to work (in general, the entire process takes an average of 15 days)'
+                    'We put all information such as texts and images inside the project (10 days)'
             },
             {
                 subtitle: 'FIVE',
-                title: 'Post-completion',
-                content: 'We always ask for a review from our customer =)'
+                title: 'Finalization',
+                content:
+                    "Our last meeting to make sure everything's okay. We always ask for a review from our customer =)"
             }
         ]
     },
-    prices: {
-        points: [
-            'Unique design',
-            'First Class Performance',
-            'Fast Support',
-            'Affordable Cost',
-            'High Level Security',
-            'Tailored for SEO'
-        ],
-        button: 'Contact us',
-        preco: '$25,00'
-    },
     testimonials: {
-        title: 'Depositions',
+        title: 'Testimonies',
         items: [
             {
                 message:
                     'Excellent professional. He delivered efficient solutions and met the agreed deadlines, always maintaining a good dialogue and service. I recommend',
                 name: 'Ravi Novaes',
-                position:
-                    'from the Mariana Conti Team (federal deputy of Brazil)'
+                position: 'Mariana Conti Team (Congressman of Brazil)'
             },
             {
                 message:
@@ -143,34 +125,5 @@ export const homeData = {
             }
         ],
         images: ['./partners/logo-6.png', './partners/logo-7.png']
-    },
-    partners: {
-        title: 'Moonex’s Partners',
-        boxGroup: [
-            {
-                image: './abilities/image-1.png',
-                title: 'ZEPLIN'
-            },
-            {
-                image: './abilities/image-2.png',
-                title: 'DROPBOX'
-            },
-            {
-                image: './abilities/image-3.png',
-                title: 'SHOPIFY'
-            },
-            {
-                image: './abilities/image-4.png',
-                title: 'SLACK'
-            },
-            {
-                image: './abilities/image-5.png',
-                title: 'WOOCOMMERCE'
-            },
-            {
-                image: './abilities/image-6.png',
-                title: 'INVISIONAPP'
-            }
-        ]
     }
 }

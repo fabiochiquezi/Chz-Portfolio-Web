@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
-import { colors } from '../../general/styles/colors'
+import { colors } from '../../pages/styles'
 
 const Btn = styled.a`
     color: ${colors.white1};
@@ -17,8 +17,8 @@ const Btn = styled.a`
     align-items: center;
     cursor: pointer;
     border-radius: 8px;
-    width: 130px;
-    height: 55px;
+    width: 122px;
+    height: 52px;
     font-size: 20px;
     animation: pulse-black 1s ease infinite;
 

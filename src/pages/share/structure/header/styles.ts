@@ -1,4 +1,4 @@
-import { colors } from '../../../../general/styles/colors'
+import { colors } from './../../../styles'
 import styled from 'styled-components'
 
 type props = {
@@ -14,10 +14,11 @@ export const Header = styled.header<props>`
 
     .container {
         display: flex;
-        padding-top: 26px;
-        padding-bottom: 26px;
+        padding-top: 20px;
+        padding-bottom: 18px;
         align-items: center;
         justify-content: space-between;
+        border: none !important;
     }
 
     .background {
@@ -28,11 +29,6 @@ export const Header = styled.header<props>`
         left: 0;
         top: 0;
         opacity: 0;
-        display: none;
-
-        @media (min-width: 1024px) {
-            display: none;
-        }
     }
 
     nav {
@@ -41,12 +37,12 @@ export const Header = styled.header<props>`
         justify-content: space-between;
 
         @media (min-width: 1024px) {
-            width: 82%;
+            width: 84.5%;
             position: relative;
         }
 
         @media (min-width: 1280px) {
-            width: 88%;
+            width: 87%;
         }
 
         @media (min-width: 1532px) {
@@ -60,19 +56,28 @@ export const Header = styled.header<props>`
         top: 0;
         width: 100%;
         height: 100vh;
-        padding-top: 125px;
+        padding-top: 92px;
 
         @media (min-width: 1024px) {
-            display: flex !important;
             padding-top: 0px;
             position: static;
             height: auto;
             margin-top: -10px;
+            display: flex !important;
+            justify-content: space-between;
+            align-items: center;
+            opacity: 1 !important;
+        }
+
+        .menu-1 {
+            @media (min-width: 1024px) {
+                display: flex !important;
+            }
         }
 
         a {
             width: 100%;
-            font-size: 28px;
+            font-size: 26px;
             padding: 20px 0px;
             text-align: center;
             display: inline-block;
@@ -82,6 +87,8 @@ export const Header = styled.header<props>`
                 padding: 0px !important;
                 font-size: 14px;
                 font-weight: bold;
+                position: relative;
+                top: 3px;
             }
 
             &:hover {
@@ -99,7 +106,7 @@ export const Header = styled.header<props>`
         }
 
         li + li {
-            border-top: 1px solid ${colors.white1};
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
 
             @media (max-width: 1024px) {
                 max-width: 80%;
@@ -108,7 +115,7 @@ export const Header = styled.header<props>`
 
             @media (min-width: 1024px) {
                 border: none;
-                margin-left: 30px;
+                margin-left: 25px;
             }
         }
 
@@ -120,15 +127,16 @@ export const Header = styled.header<props>`
                 &::after {
                     content: '';
                     display: inline-block;
-                    width: 5px;
-                    height: 5px;
-                    border-radius: 50%;
+                    width: 40px;
+                    height: 3px;
+                    /* height: 2px; */
+                    /* border-radius: 50%; */
                     background-color: ${props =>
                         props.menuStyle === 1 ? colors.white1 : colors.color1};
                     position: absolute;
                     left: 50%;
-                    margin-left: -2.5px;
-                    top: 31px;
+                    margin-left: -20px;
+                    top: 48px;
                 }
             }
         }
@@ -160,23 +168,6 @@ export const Header = styled.header<props>`
 
         @media (min-width: 1024px) {
             display: none;
-        }
-    }
-
-    .social-media,
-    .btn-contract {
-        display: none;
-    }
-
-    .social-media {
-        @media (min-width: 1280px) {
-            display: flex;
-        }
-    }
-
-    .btn-contract {
-        @media (min-width: 1024px) {
-            display: flex;
         }
     }
 
@@ -268,5 +259,46 @@ export const Header = styled.header<props>`
 
     .cell-phone {
         color: #fff;
+    }
+
+    .menu-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: 1024px) {
+            flex-direction: row;
+        }
+
+        ul {
+            margin-top: 20px;
+            @media (min-width: 1024px) {
+                margin-top: 12px;
+            }
+        }
+
+        li a {
+            padding: 10px;
+            margin-top: -10px;
+        }
+
+        li + li {
+            border: none !important;
+            margin: 0px 0px 0px 16px !important;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 22px;
+
+            @media (min-width: 1024px) {
+                font-size: 15px;
+                margin-top: 8px;
+                margin-left: 33px;
+            }
+            @media (min-width: 1280px) {
+                margin-left: 28px;
+            }
+        }
     }
 `

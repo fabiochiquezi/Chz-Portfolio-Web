@@ -3,7 +3,7 @@ import Slider from 'react-slick'
 import styled from 'styled-components'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Title3 from '../../../components/titles/title3'
+import Title3 from '../../../../components/titles/title3'
 
 const Section = styled.section`
     .slick-prev:before,
@@ -79,7 +79,7 @@ const slideshowMessage =
     'lg:text-2xl px-4 md:px-16 lg:px-12 xl:px-32 pt-2 md:pt-7 md:text-lg text-center m-auto mb-8 lg:font-light text-gray-500 leading-7 lg:leading-10'
 const slide = 'flex flex-col items-center text-center'
 const slideshowWrapper =
-    'flex flex-col items-center lg:mt-24 xl:mt-16 mt-20 md:flex-row md:gap-10 w-full justify-center xl:w-5/6 xl:mx-auto'
+    'flex flex-col items-center mt-4 md:flex-row md:gap-10 w-full justify-center xl:w-5/6 xl:mx-auto'
 const logo = 'mb-12 md:mb-0'
 
 type props = {
@@ -89,7 +89,7 @@ type props = {
     title: string
 }
 
-const Testimonial2: React.FC<props> = ({
+const Testimonial: React.FC<props> = ({
     slides,
     images,
     className,
@@ -122,7 +122,8 @@ const Testimonial2: React.FC<props> = ({
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
-                    Ver Comentários no Google
+                    See more comments on Google <br />
+                    (some of them are in portuguese)
                 </a>
 
                 <div data-aos="fade" className="px-8 md:px-16 lg:w-5/6 mx-auto">
@@ -154,4 +155,4 @@ const Testimonial2: React.FC<props> = ({
     )
 }
 
-export default Testimonial2
+export { Testimonial }

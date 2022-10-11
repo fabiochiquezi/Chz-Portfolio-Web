@@ -1,34 +1,22 @@
-import { colors } from '../../../general/styles/colors'
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Section = styled.section`
     background: ${colors.black1};
-    padding: 64px 0px 250px;
+    padding: 38px 0px 190px;
     overflow: hidden;
     position: relative;
 
     @media (min-width: 425px) {
-        padding: 64px 0px 200px;
+        padding: 38px 0px 190px;
     }
 
     @media (min-width: 640px) {
-        padding: 64px 0px 320px;
-    }
-
-    @media (min-width: 768px) {
-        padding: 64px 0px 280px;
+        padding: 42px 0px 200px;
     }
 
     @media (min-width: 1024px) {
-        padding: 80px 0px 140px;
-    }
-
-    @media (min-width: 1280px) {
-        padding: 80px 0px 130px;
-    }
-
-    @media (min-width: 1280px) {
-        padding: 80px 0px 140px;
+        padding: 70px 0px 130px;
     }
 
     .content {
@@ -36,17 +24,19 @@ export const Section = styled.section`
     }
 
     .h1 {
-        margin-bottom: 64px;
+        margin-bottom: 16px;
         position: relative;
         z-index: 10;
         margin-bottom: 24px;
+        max-width: 350px;
 
         @media (min-width: 640px) {
-            margin-bottom: 120px;
+            margin-bottom: 32px;
         }
 
         @media (min-width: 768px) {
             max-width: 75%;
+            margin-bottom: 32px;
         }
 
         @media (min-width: 1024px) {
@@ -66,31 +56,26 @@ export const Section = styled.section`
         z-index: 10;
         font-size: 36px;
         font-weight: bold;
-        line-height: 150%;
+        line-height: 130%;
         max-width: 400px;
         position: relative;
-        margin: 0 0 48px;
+        margin: 0 0 10px;
         color: ${colors.white1};
 
         @media (min-width: 640px) {
             font-size: 40px;
             text-align: left;
             margin-bottom: 16px;
-            max-width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            max-width: 500px;
         }
 
         @media (min-width: 1024px) {
             font-size: 52px;
-            margin-bottom: 48px;
             line-height: 125%;
             max-width: 400px;
-        }
-
-        @media (min-width: 1280px) {
-            max-width: 600px;
-            font-size: 60px;
-            line-height: 110%;
-            margin-bottom: 42px;
         }
     }
 
@@ -117,17 +102,18 @@ export const Section = styled.section`
         margin-bottom: 24px;
         position: relative;
         z-index: 10;
+        max-width: 360px;
 
         @media (min-width: 640px) {
             font-size: 22px;
             margin-bottom: 64px;
         }
 
-        @media (min-width: 1024px) {
-            font-size: 20px;
-            margin-bottom: 24px;
+        @media (min-width: 768px) {
+            max-width: 420px;
         }
-        @media (min-width: 1280px) {
+
+        @media (min-width: 1024px) {
             font-size: 20px;
             margin-bottom: 28px;
         }
@@ -136,7 +122,7 @@ export const Section = styled.section`
     .photo-agency {
         position: absolute;
         right: -120px;
-        bottom: -400px;
+        bottom: -340px;
         width: 420px;
 
         @media (min-width: 640px) {

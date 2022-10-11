@@ -1,10 +1,4 @@
 export const structureData = {
-    socialMedia: {
-        facebook: 'a',
-        instagram: 'b',
-        linkedin: 'c',
-        youtube: 'd'
-    },
     menu: [
         {
             name: 'Home',

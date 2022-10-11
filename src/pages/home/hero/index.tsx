@@ -9,12 +9,12 @@ type props = {
     className?: string
 }
 
-const Hero1: React.FC<props> = ({ message, content, button, className }) => (
+const Hero: React.FC<props> = ({ message, content, button, className }) => (
     <Section className={className}>
         <div className="container mx-auto">
             <div className="content">
                 <div className="h1" data-aos="fade-up" data-aos-delay="150">
-                    <img src="./logo/logo2.svg" alt="" />
+                    <img src="./logo/logo3.svg" alt="" />
                 </div>
 
                 <div data-aos="fade-up" data-aos-delay="250">
@@ -25,7 +25,12 @@ const Hero1: React.FC<props> = ({ message, content, button, className }) => (
                     </div>
 
                     {/* <BtnWhatsApp text={button} link="/trabalho" /> */}
-                    <Btn1 text="Contratar" link="/contratar" />
+                    <Btn1
+                        text="WhatsApp"
+                        blank={true}
+                        btnDefault={true}
+                        link="https://api.whatsapp.com/send?phone=5519983127035"
+                    />
                 </div>
 
                 <div
@@ -40,4 +45,4 @@ const Hero1: React.FC<props> = ({ message, content, button, className }) => (
     </Section>
 )
 
-export default Hero1
+export { Hero }

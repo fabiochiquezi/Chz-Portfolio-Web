@@ -18,7 +18,11 @@ const A = styled.a<props>`
     }
 
     img {
-        width: ${props => props.size * 160 + 'px'};
+        width: ${props => props.size * 140 + 'px'};
+
+        @media (min-width: 1024px) {
+            width: ${props => props.size * 140 + 'px'};
+        }
     }
 `
 

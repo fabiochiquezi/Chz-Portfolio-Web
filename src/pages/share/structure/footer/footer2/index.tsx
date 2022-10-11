@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import BtnWhatsApp2 from '../../../../../components/buttons/btnWhatsApp2'
-import { Logo } from '../../Logo'
+import { Logo } from '../../logo'
 
 const Section = styled.section`
-    padding-top: 48px;
+    padding-top: 28px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -12,6 +11,7 @@ const Section = styled.section`
 
     @media (min-width: 1024px) {
         flex-direction: row;
+        padding-top: 48px;
     }
 
     a {
@@ -42,10 +42,10 @@ const Footer2: React.FC = ({ ...props }) => {
             <Logo size={0.6} />
 
             <p className="copy">
-                © 2021 Chiquezi. Todos os direitos reservados.
+                © {new Date().getFullYear()} Chiquezi. All rights reserved.
             </p>
 
-            <BtnWhatsApp2 />
+            {/* <BtnWhatsApp2 /> */}
         </Section>
     )
 }

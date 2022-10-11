@@ -36,7 +36,7 @@ type props = {
     subtitle?: string
 }
 
-const BoxSalles1: React.FC<props> = ({
+const BoxSalles: React.FC<props> = ({
     mode = 'light',
     className,
     points,
@@ -83,21 +83,16 @@ const BoxSalles1: React.FC<props> = ({
                     </ul>
 
                     <div className="flex flex-col items-center">
-                        <p className="mb-8 md:mb-4 text-4xl font-bold text-blue-500">
-                            {price}
-                            <span
-                                className={
-                                    'font-normal ' +
-                                    (mode === 'dark'
-                                        ? ' text-white'
-                                        : ' text-gray-500')
-                                }
-                            >
-                                /mês
-                            </span>
+                        <p className="mb-8 md:mb-4 text-2xl w-52 text-center font-bold text-blue-500">
+                            Contact us for a quote. It&apos;s simple and fast
                         </p>
                         {/* <BtnWhatsApp text={textButton} link="" className="mb-3" /> */}
-                        <Btn1 text="Contratar" link="/contratar" />
+                        <Btn1
+                            text="WhatsApp"
+                            blank={true}
+                            btnDefault={true}
+                            link="https://api.whatsapp.com/send?phone=5519983127035"
+                        />
 
                         {/* <p className={'text-lg ' + (mode === 'dark' ? ' text-white' : ' text-gray-600')}>{cellphone}</p> */}
                     </div>
@@ -107,4 +102,4 @@ const BoxSalles1: React.FC<props> = ({
     )
 }
 
-export default BoxSalles1
+export { BoxSalles }

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { colors } from '../../styles'
+import { colors } from '../../../styles'
 
 const Div = styled.div`
     padding-top: 60px;

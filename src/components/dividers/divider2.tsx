@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { colors } from '../../general/styles/colors'
+import { colors } from '../../pages/styles'
 
 const Div = styled.div`
     width: 100%;
@@ -8,6 +8,7 @@ const Div = styled.div`
     background: ${colors.gradient1};
     position: relative;
     margin-top: -2px;
+    opacity: 0.5;
     z-index: 100;
 `
 

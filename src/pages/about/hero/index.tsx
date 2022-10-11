@@ -1,6 +1,7 @@
 import React from 'react'
-import { colors } from '../../../general/styles/colors'
+
 import Social1 from '../../../components/socialMedia/social1'
+import { colors } from '../../styles'
 
 const h1 =
     'text-4xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-bold mb-1 lg:mb-2 2xl:mb-0 text-white'
@@ -26,7 +27,7 @@ type props = {
     image: string
 }
 
-const Hero2: React.FC<props> = ({
+const Hero: React.FC<props> = ({
     name,
     position,
     block1,
@@ -70,10 +71,10 @@ const Hero2: React.FC<props> = ({
 
                             <Social1
                                 style={2}
-                                facebook="https://pt-br.facebook.com/"
-                                instagram="https://www.instagram.com/"
-                                linkedin="https://br.linkedin.com/"
-                                youtube="https://www.youtube.com/"
+                                facebook="https://www.facebook.com/fabio.chiquezi/"
+                                instagram="https://www.instagram.com/accounts/onetap/?next=%2F"
+                                linkedin="https://www.linkedin.com/in/f%C3%A1bio-chiquezi-b40607217/"
+                                whatsapp="https://api.whatsapp.com/send?phone=5519983127035"
                                 size={22}
                                 marginLeft={14}
                             />
@@ -89,4 +90,4 @@ const Hero2: React.FC<props> = ({
     )
 }
 
-export default Hero2
+export { Hero }

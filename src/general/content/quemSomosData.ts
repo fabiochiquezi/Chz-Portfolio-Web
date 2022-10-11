@@ -87,7 +87,7 @@ export const quemSomosData = {
         ]
     },
     testimonials: {
-        title: 'Depoimentos',
+        title: 'Testimonies',
         items: [
             {
                 message:

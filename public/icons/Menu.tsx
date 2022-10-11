@@ -1,10 +1,4 @@
-import gsap from 'gsap'
-import React, { useEffect } from 'react'
-import styled from 'styled-components'
-
-const Svg = styled.svg`
-    transition: all .2s ease;
-`
+import React from 'react'
 
 type props = {
     fill?: string
@@ -12,22 +6,18 @@ type props = {
 }
 
 const Menu: React.FC<props> = ({ active, fill = 'white' }) => {
-    // useEffect(() => {
-    //     console.log(active, 'aaaaaaaaaaaa')
-    //     if (active) {
-    //         gsap.to('.line-1', { rotateZ: 30 })
-    //         gsap.to('.line-2', { rotateZ: -30 })
-    //         return
-    //     }
-    //     gsap.to('.line-1', { rotateZ: 0 })
-    //     gsap.to('.line-2', { rotateZ: 0 })
-    // }, [active])
-
     return (
-        <Svg width="46" height="20" viewBox="0 0 46 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path className="line-1" d="M0 5H46V0H0V5Z" fill={fill} />
-            <path className="line-2" d="M0 20H46V15H0V20Z" fill={fill} />
-        </Svg>
+        <svg
+            width="36"
+            height="25"
+            viewBox="0 0 36 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path d="M0 3H36V0H0V3Z" fill={fill} />
+            <path d="M0 14H36V11H0V14Z" fill={fill} />
+            <path d="M0 25H36V22H0V25Z" fill={fill} />
+        </svg>
     )
 }
 

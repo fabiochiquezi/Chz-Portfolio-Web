@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import type { NextPage } from 'next'
+import { BoxSalles } from './boxSalles'
 import React, { useContext } from 'react'
-import StructurePage from '../share/structure'
-import { GeneralContext } from '../share/context/general'
-import TimeLine1 from '../home/timeLine1'
-import BoxSalles1 from '../home/boxSalles/boxSalles1'
-import { structureData } from '../../general/content/structureData'
-import { productSiteData } from '../../general/content/productSiteData'
+import { TimeLine } from '../../home/timeLine'
+import StructurePage from '../../share/structure'
+import { GeneralContext } from '../../share/context/general'
+import { structureData } from '../../../general/content/structureData'
+import { productSiteData } from '../../../general/content/productSiteData'
 
 const Page: NextPage = () => {
     const { menuStyleProvider } = useContext(GeneralContext)
@@ -24,7 +24,7 @@ const Page: NextPage = () => {
             </Head>
 
             <StructurePage>
-                <TimeLine1
+                <TimeLine
                     title={timeLine.title}
                     endMessage={timeLine.endMessage}
                     times={timeLine.times}
@@ -32,7 +32,7 @@ const Page: NextPage = () => {
                     mode="dark"
                 />
 
-                <BoxSalles1
+                <BoxSalles
                     title={prices.title}
                     subtitle={prices.subtitle}
                     textButton={prices.button}

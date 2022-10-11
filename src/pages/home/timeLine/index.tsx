@@ -3,7 +3,7 @@ import TimeBox from './TimeBox'
 import styled from 'styled-components'
 import Btn2 from '../../../components/buttons/btn2'
 import Title3 from '../../../components/titles/title3'
-import { colors } from '../../../general/styles/colors'
+import { colors } from '../../styles'
 
 type propsStyle = {
     height: number
@@ -50,7 +50,7 @@ type props = {
     mode?: string
 }
 
-const TimeLine1: React.FC<props> = ({
+const TimeLine: React.FC<props> = ({
     className,
     title,
     times,
@@ -61,7 +61,7 @@ const TimeLine1: React.FC<props> = ({
     return (
         <Section className={className} mode={mode}>
             <div className="container relative">
-                <Title3 title={title} data-aos="fade-up" data-aos-delay="300" />
+                <Title3 title={title} />
 
                 <div className="content flex flex-col items-center w-full">
                     <Line
@@ -101,7 +101,7 @@ const TimeLine1: React.FC<props> = ({
 
                     {linkSeeMore && (
                         <Btn2
-                            text="Veja mais"
+                            text="See More"
                             link={linkSeeMore}
                             data-aos="fade-up"
                         />
@@ -112,4 +112,4 @@ const TimeLine1: React.FC<props> = ({
     )
 }
 
-export default TimeLine1
+export { TimeLine }

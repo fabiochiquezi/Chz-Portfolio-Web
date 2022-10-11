@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { colors } from '../../general/styles/colors'
+import { colors } from '../../pages/styles'
 
 const Btn = styled.a`
     color: ${colors.white1};

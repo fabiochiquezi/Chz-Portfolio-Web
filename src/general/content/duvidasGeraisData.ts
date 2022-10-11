@@ -1,6 +1,6 @@
 export const duvidasGeraisData = {
     seo: {
-        title: 'Chiquezi - Digital Agency | Dúvidas Gerais',
+        title: 'Chiquezi - Digital Agency',
         description: 'General questions about the web development service'
     },
     title: 'General Questions',
@@ -11,20 +11,12 @@ export const duvidasGeraisData = {
             title: 'General',
             quests: [
                 {
-                    ask: 'Is it a website rental service?',
-                    answer: 'Yes, we have developed a website for you and we charge the amount monthly.'
-                },
-                {
-                    ask: 'What is the service primarily for?',
+                    ask: 'What kind of sites do you offer?',
                     answer: "For now, we only offer corporate websites, so it's mainly for companies that want to showcase their service online. Soon we will add e-commerces, blogs, showcases and other products such as systems and applications in our product catalog"
                 },
                 {
                     ask: 'Do you create the banners for my site?',
                     answer: 'No, we just insert the content you want. If you want to change the banners on your site, you need to provide them to us.'
-                },
-                {
-                    ask: 'Can I remove it from your platform?',
-                    answer: 'You cannot withdraw from the site, only cancel your subscription. Unsubscribing will lead to your site being disabled'
                 }
             ]
         },
@@ -32,58 +24,58 @@ export const duvidasGeraisData = {
             title: 'Process',
             quests: [
                 {
-                    ask: 'How does the web service contracting process work?',
-                    answer: 'It goes through 6 steps: 1) you go to our "Hire" page and fill in the form with all the questions so that we can understand your needs, 2) we start the development of the layout design and send it to you to approve, 3) we implement the code and put the site online, 4) we configure your domain and add the content (your company information), 5) we confirm the end of the project, 6) we ask for your evaluation =)'
-                },
-                {
                     ask: 'How long does this process take?',
-                    answer: 'From 7 to 15 days'
+                    answer: "From 15 to 30 days. It's build in 3 steps: design, codification and content."
                 },
                 {
                     ask: 'If I want any changes?',
-                    answer: "Just contact us and we'll change it for you, we'll give you all the support you need."
+                    answer: "Just contact us and we'll change it for you, we'll give you all the support you need during this process."
                 },
                 {
                     ask: "If I want to give up the project during the site's production?",
-                    answer: 'Please let us know as soon as possible, in case of any default we will not do business again =X'
+                    answer: 'The cost in this case will depend the step of the project (design, codification or content). Please let us know as soon as possible. In case of any default we will not do business again =X'
                 }
             ]
         },
         {
-            title: 'Please let us know as soon as possible, in case of default we will not do business again =X',
+            title: 'Contract',
             quests: [
                 {
                     ask: 'Do you have any contractual fidelity?',
                     answer: 'No, you can cancel anytime you want, just contact us.'
                 },
                 {
-                    ask: 'Can I pay a few months in advance?',
-                    answer: 'Not yet, we will soon open this possibility'
-                },
-                {
                     ask: 'Will the site be charged while it is in development?',
-                    answer: 'No, it will only start to be charged after the site is live'
-                },
-                {
-                    ask: 'How does the payment work?',
-                    answer: 'We will send you a ticket every month with the necessary data'
+                    answer: 'Yes, being a 3-step project, each of them will be charged 33%, and you just pay at the end of each step.'
                 }
             ]
         },
         {
-            title: 'Domain (website name)',
+            title: 'Domain (website name) / Hosted service',
             quests: [
+                {
+                    ask: 'What is hosted services?',
+                    answer: "This is where your website will be hosted, what will keep it online. Everyone needs one and it's a private service (it costs a price), however it's cheap"
+                },
+                {
+                    ask: 'Do you offer Host service?',
+                    answer: "No, we don't, but we will put your site on Google Host, which gives you a % free usage every month, and you are only charged if you exceed the free plan."
+                },
+                {
+                    ask: 'What is domain?',
+                    answer: 'Domain will be the name of your website, exemple: www.websitename.com. It has a price and you have to renew every year at least.'
+                },
                 {
                     ask: 'Is the domain delivered together?',
                     answer: "No, you need to buy the domain separately and it's your personal thing and give us the details so we can configure it for you"
                 },
                 {
-                    ask: 'How much does the domain cost?',
-                    answer: 'Costs around $40.00 per year'
+                    ask: 'Where can I buy it?',
+                    answer: 'Here -> https://domains.google/'
                 },
                 {
-                    ask: 'Do you manage the domain??',
-                    answer: "We can manage it for you, that is, in addition to the configuration, we also keep an eye on the renewal period so that you don't miss out and have any inconvenience to renew it. Contact us to request domain administration"
+                    ask: 'Do you manage the domain renew?',
+                    answer: "We can help you with that, that is, in addition to the configuration, we also keep an eye on the renewal period so that you don't miss out and have any inconvenience to renew it. Contact us to request domain administration"
                 }
             ]
         }
