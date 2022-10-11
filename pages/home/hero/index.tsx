@@ -38,7 +38,7 @@ const Hero: React.FC<props> = ({ message, content, button, className }) => (
                     data-aos="fade-up"
                     data-aos-delay="450"
                 >
-                    <img src="./hero/illustration1.svg" alt="agency photo" />
+                    <img src="./hero/Illustration1.svg" alt="agency photo" />
                 </div>
             </div>
         </div>
