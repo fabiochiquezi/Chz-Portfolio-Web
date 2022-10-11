@@ -9,7 +9,6 @@ Hope this works for you as it worked for me.
 ## Preview
 
 www.chiquezi.com
-
 &nbsp;
 
 ## Install
